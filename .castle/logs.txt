@@ -1,9 +1,0 @@
-[12:30:11.865] [LOG]   Castle: 2. Set sample rate to 48000
-[12:48:50.283] [LOG]   Castle: 2. Set sample rate to 48000
-[13:03:12.489] [LOG]   Castle: 2. Set sample rate to 48000
-[13:03:13.089] [LOG]   Castle: 2. Set sample rate to 48000
-[13:03:57.665] [LOG]   Castle: 2. Set sample rate to 48000
-[13:03:57.815] [LOG]   Castle: 2. Set sample rate to 48000
-[13:03:57.945] [LOG]   Castle: 2. Set sample rate to 48000
-[13:07:58.085] [LOG]   Castle: 2. Set sample rate to 48000
-[13:07:58.619] [LOG]   Castle: 2. Set sample rate to 48000

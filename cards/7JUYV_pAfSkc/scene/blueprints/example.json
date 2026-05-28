@@ -1,0 +1,195 @@
+{
+  "entryId": "ebc1b470-1741-4571-9040-9ef3ec799fc9",
+  "library": {
+    "blueprintAssetId": "XrZUxqfsEDkp:c8948112-e4c4-4e1b-af4e-c19c1318d5fc",
+    "parentBlueprintAssetId": "",
+    "originCardId": "XrZUxqfsEDkp",
+    "originDeckId": "Q-CW6CYbxolP"
+  },
+  "entryType": "actorBlueprint",
+  "title": "Example",
+  "titleEdited": true,
+  "category": "",
+  "actorBlueprint": {
+    "components": {
+      "Body": {
+        "x": 0,
+        "y": 0,
+        "angle": 0,
+        "width": 0.98995,
+        "height": 0.98995,
+        "widthScale": 0.4,
+        "heightScale": 0.2,
+        "visible": true,
+        "relativeToCamera": false,
+        "relativeToCameraFix": true,
+        "layerName": "main",
+        "fixtures": [
+          {
+            "shapeType": "polygon",
+            "points": [
+              -5,
+              -5,
+              -5,
+              5,
+              5,
+              5,
+              5,
+              -5
+            ],
+            "x": 0,
+            "y": 0,
+            "radius": 0
+          }
+        ],
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "editorBounds": {
+          "minX": -5,
+          "maxX": 5,
+          "minY": -5,
+          "maxY": 5
+        },
+        "disabled": false
+      },
+      "Rules": {
+        "rules": [],
+        "disabled": false
+      },
+      "Tags": {
+        "tagsString": "",
+        "disabled": false
+      },
+      "Script": {
+        "code": "function onCreate()\n  local acc = castle.getCurrentUser()\n  my.text.content = \"Hello, World!\\nHello \" .. acc.username .. \"!\" \nend",
+        "scriptProperties": [],
+        "errors": [],
+        "disabled": false
+      },
+      "Text": {
+        "content": "Bun",
+        "visible": true,
+        "order": 1,
+        "fontName": "DMSans",
+        "fontSize": 7,
+        "fontSizeScale": 1,
+        "emsPerLine": 8.13559,
+        "alignment": "center",
+        "color": {
+          "r": 0.07058,
+          "g": 0.12549,
+          "b": 0.12549,
+          "a": 1
+        },
+        "backgroundColor": {
+          "r": 0.89019,
+          "g": 0.90196,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "verticalAlignment": "top",
+        "disabled": false
+      },
+      "Drawing2": {
+        "initialFrame": 1,
+        "currentFrame": 1,
+        "framesPerSecond": 4,
+        "playMode": "still",
+        "loopStartFrame": -1,
+        "loopEndFrame": -1,
+        "opacity": 1,
+        "hash": "v2-179b77ab6e53e2309ff5399b95df146b",
+        "playing": false,
+        "loop": false,
+        "drawData": {
+          "color": [
+            0.97265,
+            0.63671,
+            0.10546,
+            1
+          ],
+          "lineColor": [
+            0.66037,
+            0.4,
+            0.93333,
+            1
+          ],
+          "gridSize": 0.71428,
+          "scale": 10,
+          "version": 3,
+          "fillPixelsPerUnit": 25.6,
+          "numTotalLayers": 1,
+          "framesBounds": [
+            {
+              "minX": -5,
+              "maxX": 5,
+              "minY": -5,
+              "maxY": 5
+            }
+          ],
+          "colors": [],
+          "selectedFrame": 1,
+          "layers": [
+            {
+              "title": "Layer 1",
+              "id": "layer1",
+              "isVisible": true,
+              "isBitmap": false,
+              "isAvatar": false,
+              "frames": [
+                {
+                  "isLinked": false,
+                  "pathDataList": [],
+                  "fillImageBounds": {
+                    "minX": 0,
+                    "maxX": 0,
+                    "minY": 0,
+                    "maxY": 0
+                  },
+                  "avatarX": 0,
+                  "avatarY": 0,
+                  "avatarRadius": 5
+                }
+              ]
+            }
+          ]
+        },
+        "physicsBodyData": {
+          "shapes": [
+            {
+              "p1": {
+                "x": 5,
+                "y": 5
+              },
+              "p2": {
+                "x": -5,
+                "y": -5
+              },
+              "p3": {
+                "x": 0,
+                "y": 0
+              },
+              "radius": 0,
+              "x": 0,
+              "y": 0,
+              "type": "rectangle"
+            }
+          ],
+          "scale": 10,
+          "version": 2,
+          "zeroShapesInV1": false
+        },
+        "disabled": false
+      },
+      "Camera": {
+        "zoom": 1,
+        "angle": 0,
+        "disabled": true
+      }
+    }
+  },
+  "base64Png": "iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAACQFBMVEUAAADMzMy6urqMjo6MjY2Njo6RkpKam5uoqKi8vLzLy8uUlZUTISESICAWJCQbKSkjMDBHUVGjpqZJU1Okp6cVIyOVmZkhLi6doaE8RkZYYWFUXV1FT08pNjYeKysoNDS9vr5/hYXJycmytLSBh4cfLCwUIiKGi4uqrKw/SkqCiIgWIyPGx8cZJyewsrIdKiqtr6/IyMi8vb3FxcVlaWliZmZtcHCrrKyYmZm+v79pcHBnb29sdHS5urqRlZU1QEAgLS00QEBWX1+MkZG6u7sbKCgkMTHAwMAYJSUlMjKSlpZwd3ezs7OlqKiztbUuOjqtsLBfZ2eeoqKYnJwpNTUmMjLBwsI4Q0MaJyeQlZWoqqqprKyfoqI3QkJkbGx8goI7RkYsODg2QkIkMDBBTEydoKByeXleZmY8R0eKj4+vsbFiamoiLy+Sl5eNkZHFxsacn5/Kysq4ublja2t4fn4tOTllbW0xPT3AwcErNzcmMzONkpJqcnKoq6ugo6Onqqp0e3ubn5/IycmCh4czPj6Jjo5dZWWDiYk5RESLkJBDTU0vOzu9vb2HjY0nNDS4uLgZJiZ6gIDGxsa9v79cZGS3uLi7vLxKVFROV1eAhoa1t7eqra20trYxPDxIUlJtdHR2fHwwPDyEiYmWmpoXJSUqNjYyPj5gaGhMVVVrcnLDw8OFi4tvdnawsbFtcXFscHBzdnZ8f3+PkZGqq6uxs7N5f39LVVVGUFBzenqrrq6PlJR0enqgpKS/wMBvcnKChISNoAgtAAAAAXRSTlMAQObYZgAABbpJREFUeJztmolbFHUch2e721iEighMNBGyEA3JSqk0i0I6FCuSDoSiw9SIjCK1y7LsTjO7s/uwksoOuv+1dn6z7AFszLi78+L8Pu/z+Dwz8/vp835fV3ZmHh1namKRI8+gVsyewfLxXeye3sP2+fMXoL3Cw/LxXWyff3IB2id8bJ9/QgFahsD2+bML0CYUts+fLkBrcCiA5fOnCtASJLbPbwrQCiwKoADWB6ANaBSAFqBRAFqARgFoARoFoAVoFIAWoFEAWoBGAWgBmvwBjjv+hGxOPOnkU06Nh2gWEvkDnFaWyKasrHxWReXpIaqFg+8AKc44M0S5MAgaIFF1Voh2IRA4QKL67BD1Ss90AWpqPWafM6cuVWTuvBD9Ss50Ac5Nn8+vX9BgAjSeF4JXaPgPkGRhhSlwfqmlwiRQgNgF5lrTohJLhUmwAPXN5iOwuMRSYRIswKIlJsCFJZYKk2ABWrwAS93j1ouWJbk4Z/0S99KyS72T5Sva2touuzx5FL+idmVdVdOqK1dfNb+o9kUgWICr291r15jjazvc4zU5652mz3XeyfVNyeOOG2KxG1dm7iLWriuqfuEEC9BZ5V7rMsf+ApStj910c/Z91C2dRfUvmEABum91L23wHgf8BUj03FaXeyfZcHtxJyiQIAHuuNNM0NtiznwG2Nhnvjn777p7vMBAkUcojOkC9K73uKfn3hrvPvC+1LrPAP3J6e/f1Jo8f2DzFq/A1tKMcnQEfRha9eBgat1ngCQrWr0L8YfKzXnlUAkGOVqCBVjS9XB63W+Asm2Z90iPmCvDM+lpKliAxrpH0397fgM8NpJZjz9uMtYXd4aCCPw+YPuO1LrfADuzXyTWms/EE8WdoSD8fgvElz65eZaXZIE3kd8AT2VveNpcmkkvlYJ8DS7faF4ItD9jznwGaN+VveFZs2FHbOYQ7E5wq/kx/py5EfD7NZizYZPZsLtw76IRLMDQ82aAF9xjnwH25Gx48RgPEJtnPgIvuc90UwXomRygL2fDMR8gNuxefPmV2HiAipzVV6MfwDwOvPZ68qj7DfewI2d1b/QDDKcD7DMBEm9mr+6PfIC3zFDDB9zj7ZO+0+Nrox4g/rYZoGafe/KOOV6dudGL705EPcC75o1QYqc58cZd81569f2GaAcY/KDLG3CD90g4aF4QJgYOeMtDiz9MRDDARwdT9M7uq/aeBco+Tu3w/g0kPvk0+bwXX7etOpEoj16AKRgYf779bHzH5198WWGOv7IhwNfd4zuGvpmwtGck+gHmHjyU2bJrf86eypFYRcQDbNl7KGdP/Nvm9FrTd0OxWE2EAnx/eHR01P3lcfiHH3860jJxU/znX37tb25snvPb2O/uDcEff46Njf3lrf39j/vb/s3Zv9D8WUeKOkJh6P8J0gI0CkAL0CgALUCjALQAjQLQAjQKQAvQKAAtQKMAtACNAtACNApAC9AoAC1AowC0AI0C0AI0CkAL0CgALUCjALQAjQLQAjQKQAvQKAAtQKMAtACNAtACNApAC9AoAC1AowC0AI0C0AI0CkAL0CgALUCjALQAjQLQAjQKQAvQKAAtQKMAtACNAtACNApAC9AoAC1AowC0AI0C0AI0CkAL0CgALUCjALQAjQLQAjQKQAvQKAAtQKMAtACNAtACNApAC9AoAC1AowC0AI0C0AI0CkAL0CgALUCjALQAjQLQAjQKQAvQKAAtQKMAtACNAtACNApAC9AoAC1AowC0AI0C0AI0CkAL0CgALUCjALQAjQLQAjQKQAvQKAAtQKMAtACNAtACNApAC9AoAC1AowC0AI0C0AI0CkAL0CgALUCjALQAjQLQAjQKQAvQOJYXcBRAAWgFFgWwvICjAHYXcBRAAawu4Dh2F3Acuws4CmB3Acexu8DE+W0rMHl+qxJMOb5FBfLNb0uB/PPb0OD/p498Ah/jR7ZCnkH/A2V47VPQa8JOAAAAAElFTkSuQmCC"
+}

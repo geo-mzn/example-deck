@@ -1,0 +1,21 @@
+{
+  "cardId": "7JUYV_pAfSkc",
+  "title": "Example Card",
+  "backgroundColor": "#f4a096",
+  "sceneProperties": {
+    "backgroundColor": {
+      "r": 0.9569,
+      "g": 0.6275,
+      "b": 0.5882,
+      "a": 1
+    },
+    "coordinateSystemVersion": 2,
+    "clock": {
+      "tempo": 120,
+      "beatsPerBar": 4,
+      "stepsPerBeat": 4
+    }
+  },
+  "actorBlueprintInherit": true,
+  "linkTargetDeckIds": []
+}

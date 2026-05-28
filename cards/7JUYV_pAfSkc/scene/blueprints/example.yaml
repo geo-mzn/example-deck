@@ -1,0 +1,83 @@
+id: ebc1b470-1741-4571-9040-9ef3ec799fc9
+title: Example
+blueprintAssetId: XrZUxqfsEDkp:c8948112-e4c4-4e1b-af4e-c19c1318d5fc
+behaviors:
+  - Layout
+  - Rules
+  - Tags
+  - Script
+  - Text
+  - Drawing
+  - Camera
+actorBlueprint:
+  components:
+    Layout:
+      x: 0
+      y: 0
+      angle: 0
+      width: 0.98995
+      height: 0.98995
+      widthScale: 4
+      heightScale: 2
+      visible: true
+      relativeToCamera: false
+      relativeToCameraFix: true
+      layerName: main
+      paddingTop: 0
+      paddingRight: 0
+      paddingBottom: 0
+      paddingLeft: 0
+      editorBounds:
+        minX: -5
+        maxX: 5
+        minY: -5
+        maxY: 5
+      disabled: false
+    Rules:
+      rules: []
+      disabled: false
+    Tags:
+      tagsString: ""
+      disabled: false
+    Script:
+      scriptProperties: []
+      errors: []
+      disabled: false
+    Text:
+      content: Bun
+      visible: true
+      order: 1
+      fontName: DMSans
+      fontSize: 7
+      fontSizeScale: 1
+      emsPerLine: 8.13558
+      alignment: center
+      color:
+        r: 0.06666
+        g: 0.12156
+        b: 0.12156
+        a: 1
+      backgroundColor:
+        r: 0.88627
+        g: 0.89803
+        b: 1
+        a: 1
+      opacity: 1
+      verticalAlignment: top
+      disabled: false
+    Drawing:
+      initialFrame: 1
+      currentFrame: 1
+      framesPerSecond: 4
+      playMode: still
+      loopStartFrame: -1
+      loopEndFrame: -1
+      opacity: 1
+      hash: v2-179b77ab6e53e2309ff5399b95df146b
+      playing: false
+      loop: false
+      disabled: false
+    Camera:
+      zoom: 1
+      angle: 0
+      disabled: true
